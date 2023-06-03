@@ -7,7 +7,8 @@ Instalación
   Instala las dependencias ejecutando el siguiente comando en tu terminal:
 
 shell
-      pip install opencv-python pyzbar qrcode
+
+       pip install opencv-python pyzbar qrcode
 
 Uso
   Coloca la imagen que contiene los códigos QR en una ubicación accesible para el script.
@@ -15,7 +16,8 @@ Uso
   Ejecuta el script en tu terminal:
 
 shell
-      python scan_qr_code.py
+
+      python CodQR.py
 
 El resultado del escaneo se mostrará en la salida de la terminal.
 Contribuciones
