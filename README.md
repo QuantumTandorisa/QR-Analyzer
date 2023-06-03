@@ -1,6 +1,7 @@
 README
 
 Este script de Python te permite escanear y verificar la autenticidad e integridad de los códigos QR en una imagen. Utiliza las bibliotecas OpenCV, pyzbar y qrcode para realizar estas tareas.
+
 Instalación
 
   Asegúrate de tener Python 3 instalado en tu sistema.
