@@ -1,5 +1,5 @@
 QR Analyzer es una herramienta que permite generar y analizar códigos QR. Usted puede utilizar esta herramienta para crear códigos QR con contenido específico y luego verificar si los códigos QR escaneados son auténticos y no han sido modificados.
-Aclaro esta herramienta hasta el día de hoy es muy simple, la idea es estudiar y entender la funcionalidad para crear una herramienta funcional y competente para cualquier escaneo de QR.
+Aclaro esta herramienta hasta el día de hoy es muy simple, la idea es entender la funcionalidad para crear una herramienta funcional y competente para cualquier escaneo de QR.
 
 ## Características
 
