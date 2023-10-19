@@ -1,26 +1,25 @@
-README
+# CodQR: Herramienta de Análisis de Códigos QR
 
-Este script de Python te permite escanear y verificar la autenticidad e integridad de los códigos QR en una imagen. Utiliza las bibliotecas OpenCV, pyzbar y qrcode para realizar estas tareas.
+QR Analyzer es una herramienta que permite generar y analizar códigos QR. Usted puede utilizar esta herramienta para crear códigos QR con contenido específico y luego verificar si los códigos QR escaneados son auténticos y no han sido modificados.
+Aclaro esta herramienta hasta el día de hoy es muy simple, la idea es estudiar y entender la funcionalidad para crear una herramienta funcional y competente para cualquier escaneo de QR.
 
-Instalación
+## Características
 
-  Asegúrate de tener Python 3 instalado en tu sistema.
-  Instala las dependencias ejecutando el siguiente comando en tu terminal:
+- Guardar Información Adicional: Además de verificar si el código QR ha sido modificado, podrías permitir que los usuarios almacenen información adicional en el código QR, como metadatos o una descripción relacionada con el contenido
+- Generar Códigos QR con Datos Variables.
 
-shell
+## Requisitos
 
-       pip install opencv-python pyzbar qrcode
+- Bibliotecas requeridas, que puedes instalar ejecutando `pip install -r requirements.txt`.
+- pip install pyzbar qrcode opencv-python
 
-Uso
-  Coloca la imagen que contiene los códigos QR en una ubicación accesible para el script.
-  En el código, modifica la variable image_path con la ruta de la imagen que deseas escanear.
-  Ejecuta el script en tu terminal:
+## Uso
 
-shell
+- Clona este repositorio en tu máquina local.
+- Ejecuta la aplicación con Python 3.9 o superior: `python3 GenerateTset.py`.
+- Generar un Código QR
+- Ejecuta la aplicación con Python 3.9 o superior: `QR-Analyzer.py`.
 
-      python CodQR.py
+## Configuración de API
 
-El resultado del escaneo se mostrará en la salida de la terminal.
-Contribuciones
-
-Las contribuciones son bienvenidas. Si encuentras algún error o tienes alguna mejora, no dudes en abrir un problema o enviar una solicitud de extracción.
+Puedes personalizar el contenido del código QR modificando la variable original_qr_data en los scripts `GenerateTset.py` y `QR-Analyzer.py`.
